@@ -1,4 +1,4 @@
-/***Universal Settings***/
+/*** Universal Settings ***/
 * {
     box-sizing: border-box;
 }
@@ -9,24 +9,37 @@ body {
     
 }
 
-/*Background Image Settings*/
-header, .design, footer {
+/*** Background Image Settings ***/
+header, .design {
     background-image: url("../images/the-flatiron-building.png");
+    background-size: cover;
 }
 
 
-/*Lists Settings*/
+/*** Background Color Settings ***/
+footer {
+    background-color: dimgray;
+}
+
+
+/*** Lists Settings ***/
 ul {
     list-style: none;
     padding: 0;
 }
 
-/*Text Color Settings*/
+header ul li {
+    padding: 5px 0;
+}
+
+
+/*** Text Color Settings ***/
 h1, a, .design, .copy{
     color: white;
 }
 
-/*Font Size Settings*/
+
+/*** Font Size Settings ***/
 h1 {
     font-size: 70px;
 }
@@ -53,5 +66,26 @@ ul li {
     font-size: 11px;
 }
 
+
+/*** Sections Padding ***/
+section {
+    padding: 15px 0;
+}
+
+
+/*** Footer Settings ***/
+footer {
+    text-align: left;
+}
+
+footer ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.copy {
+    float: left;
+    padding: 0 20px;
+}
 
 
