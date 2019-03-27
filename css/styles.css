@@ -1,0 +1,57 @@
+/***Universal Settings***/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Verdana, sans-serif, Arial;
+    
+}
+
+/*Background Image Settings*/
+header, .design, footer {
+    background-image: url("../images/the-flatiron-building.png");
+}
+
+
+/*Lists Settings*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*Text Color Settings*/
+h1, a, .design, .copy{
+    color: white;
+}
+
+/*Font Size Settings*/
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.design, h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 14px;    
+}
+
+ul li {
+    font-size: 18px;
+}
+
+.copy {
+    font-size: 11px;
+}
+
+
+
